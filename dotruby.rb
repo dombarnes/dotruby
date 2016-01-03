@@ -32,5 +32,5 @@ Dir.foreach (searchDir) do |item|
 end
 
 if count == 0 
-	puts "#{red("You haven't set ant ruby versions")}"
+	puts "#{red("You haven't set any ruby versions")}"
 end
